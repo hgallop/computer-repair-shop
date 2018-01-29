@@ -1,0 +1,134 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #3385ff;
+}
+
+#title {
+	position: relative;
+	text-align: center;
+	color: #ffffff;
+	background-color: #c11509;
+	top: -22px;
+}
+
+#title h1 {
+	text-transform: uppercase;
+}
+
+#home {
+	border-right: none;
+}
+
+#services {
+	border-right: none;
+}
+
+#hours {
+	border-right: none;	
+}
+
+#about {
+	border-right: none;
+}
+
+#contact {
+	border-right: none;
+}
+
+#pitch {
+	width: 70%;
+	background-color: white;
+}
+
+#testimonials {
+	font-family: "san-serif";
+	font-size: 35px;
+	color: #1eead6;
+	text-align: center;
+	display: inline-block;
+	border: 3px solid black;
+	background-color: black;
+	margin-left: 42%;
+}
+
+#copy {
+	color: white;
+	margin-left: 1%;
+}
+
+#customers {
+	background-image: url("../images/pitch2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: absolute;
+    background-position: center; 
+    background-size: cover;
+}
+
+.service {
+	display: inline-block;
+	border: 5px solid black;
+	background-color: #32720a;
+	padding-left: 0.4%;
+	padding-bottom: 0.2%;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+#first-customer {
+	background-color: #4CAF50;
+}
+
+#second-customer {
+	background-color: #4CAF50;
+}
+
+#third-customer {
+	background-color: #4CAF50;
+}
+
+#fourth-customer {
+	background-color: #4CAF50;
+}
+
+article h3 {
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+
+}
+
+article p {
+	color: white;
+	font-size: 14px;
+}
+
+nav {
+	background-color: #c11509;
+	overflow: hidden;
+}
+
+nav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	border: 3px solid black;
+}
+
+nav a:hover {
+	background-color: #ddd;
+    color: black;
+}
+
+nav a:active {
+    color: white;
+}
+
+a {
+	text-decoration: none;
+}
